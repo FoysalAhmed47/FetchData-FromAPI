@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/albumId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="albumId"
+            android:textAlignment="textStart"
+
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/id_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="id"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="url"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/thumbmaiUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="thumbnailUrl"
+            android:layout_marginTop="5dp"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/LinearLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="2"-->
+        <!--&gt;-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+                <!--android:id="@+id/albumId_1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="albumId:"-->
+                <!--android:textSize="20sp"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/Id_1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Id:"-->
+                <!--android:textSize="20sp"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/title_1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Title:"-->
+                <!--android:textSize="20sp"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/url_1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--android:text="url:"-->
+                <!--android:textSize="20sp"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/thmb_1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="thambnailUrl:"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--android:textSize="20sp"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+
+
